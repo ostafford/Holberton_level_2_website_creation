@@ -7,7 +7,6 @@ Holberton Level 2 Application - Make Your Own Website
 - Create a website with HTML, CSS, and JavaScript.
 - No frameworks or libraries allowed.
 - Be creative with your design and idea.
--
 
 # Website Ideas
 
@@ -49,26 +48,32 @@ Holberton Level 2 Application - Make Your Own Website
   - Pondered the idea of starting a podcast
   - COVID Lockdowns
   - Soup Athlectica
-- [ ] 2022
+- [x] 2022
   - Having a sense of purpose (Muay Thai)
   - crowned EA go carting champion
   - Became a manager for the first time
-- [ ] 2023
+- [x] 2023
   - Road Mt Buffalo on a track bike with no breaks
   - General Assembly Front-end web dev course
   - Git and Github bootcamp
-- [ ] 2024
+- [x] 2024
   - lost a sense of direction
   - quit my job at EA and started a new job at a Square
   - Quit Square to pursue self study in full stack development with The Odin Project
 
 # HTML Requirements
 
-- [ ] Header
-- [ ] Main
-- [ ] Footer
-- [ ] 404 Page
-- [ ] Home Page
-- [ ] About Page
-- [ ] Services Page
-- [ ] Contact Page
+- [ ] Paragraph <p>
+- [ ] Header <h1> - <h6>
+- [ ] Footer <footer>
+- [ ] strong <strong> or <b>
+- [ ] emphasized <em> or <i>
+- [ ] anchor ("link") <a>
+- [ ] href ("link") <a href="">
+- [ ] image <img>
+- [ ] src ("source/location") <img src="">
+- [ ] Unordered List <ul>
+- [ ] List Item <li>
+- [ ] blockquote <blockquote>
+- [ ] Horizontal Rule <hr>
+- [ ] div <div>
