@@ -63,17 +63,35 @@ Holberton Level 2 Application - Make Your Own Website
 
 # HTML Requirements
 
-- [ ] Paragraph <p>
-- [ ] Header <h1> - <h6>
+- [x] Paragraph <p>
+- [x] Header <h1> - <h6>
 - [ ] Footer <footer>
 - [ ] strong <strong> or <b>
 - [ ] emphasized <em> or <i>
-- [ ] anchor ("link") <a>
-- [ ] href ("link") <a href="">
-- [ ] image <img>
-- [ ] src ("source/location") <img src="">
-- [ ] Unordered List <ul>
-- [ ] List Item <li>
-- [ ] blockquote <blockquote>
+- [x] anchor ("link") <a>
+- [x] href ("link") <a href="">
+- [x] image <img>
+- [x] src ("source/location") <img src="">
+- [x] Unordered List <ul>
+- [x] List Item <li>
+- [x] blockquote <blockquote>
 - [ ] Horizontal Rule <hr>
 - [ ] div <div>
+
+# Soup Era
+
+- [ ] 2016 Road Nationals
+- [ ] 2017 Road Critieum
+- [ ] 2017 Soup Boys WNTRSLTC
+- [ ] 2017 Tour of High Country
+- [ ] 2018 Soup WNTRSLTC
+- [ ] 2018 Tour of High Country
+- [ ] 2019 Track Nationals (Ballarat)
+- [ ] 2019 Peaks Tour
+- [ ] 2019 Soup WNTRSLTC
+- [ ] 2019 The Dirty 420 Soup Pilgrimage
+- [ ] 2021 Repete Tour
+- [ ] 2021 Soup Athlectica Launch
+- [ ] 2023 Soup Athlectica Familia Ride
+- [ ] 2023 Buffalo Track Climb
+- [ ] 2024 Tour of Willow
