@@ -65,7 +65,7 @@ Holberton Level 2 Application - Make Your Own Website
 
 - [x] Paragraph <p>
 - [x] Header <h1> - <h6>
-- [ ] Footer <footer>
+- [x] Footer <footer>
 - [ ] strong <strong> or <b>
 - [ ] emphasized <em> or <i>
 - [x] anchor ("link") <a>
@@ -76,6 +76,6 @@ Holberton Level 2 Application - Make Your Own Website
 - [x] List Item <li>
 - [x] blockquote <blockquote>
 - [ ] Horizontal Rule <hr>
-- [ ] div <div>
-- [ ] main <main>
-- [ ]
+- [x] div <div>
+- [x] main <main>
+- [ ] aside <aside>
