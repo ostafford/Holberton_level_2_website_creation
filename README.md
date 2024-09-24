@@ -66,8 +66,8 @@ Holberton Level 2 Application - Make Your Own Website
 - [x] Paragraph <p>
 - [x] Header <h1> - <h6>
 - [x] Footer <footer>
-- [ ] strong <strong> or <b>
-- [ ] emphasized <em> or <i>
+- [x] strong <strong> or <b>
+- [x] emphasized <em> or <i>
 - [x] anchor ("link") <a>
 - [x] href ("link") <a href="">
 - [x] image <img>
@@ -79,3 +79,33 @@ Holberton Level 2 Application - Make Your Own Website
 - [x] div <div>
 - [x] main <main>
 - [ ] aside <aside>
+
+# CSS To-Do's
+
+- [ ] Flexbox
+- [ ] flex-direction
+- [ ] flex
+- [ ] overflow-y
+- [ ] viewport
+- [ ] color
+- [ ] background-color
+- [ ] font-family
+- [ ] font-size
+- [ ] font-weight
+- [ ] text-align
+- [ ] text-decoration
+- [ ] text-transform
+- [ ] letter-spacing
+- [ ] borders
+- [ ] border-radius
+- [ ] border-width
+- [ ] border-color
+- [ ] border-style
+- [ ] border-top
+- [ ] border-right
+- [ ] border-bottom
+- [ ] border-left
+
+# Extra Credit
+
+- [ ] Accordion
