@@ -79,32 +79,28 @@ Holberton Level 2 Application - Make Your Own Website
 - [x] div <div>
 - [x] main <main>
 - [ ] aside <aside>
+      Reference List
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+  - https://www.simplehtmlguide.com/cheatsheet.php
 
 # CSS To-Do's
 
 - [ ] Flexbox
-- [ ] flex-direction
-- [ ] flex
-- [ ] overflow-y
-- [ ] viewport
 - [ ] color
-- [ ] background-color
-- [ ] font-family
-- [ ] font-size
 - [ ] font-weight
-- [ ] text-align
-- [ ] text-decoration
-- [ ] text-transform
-- [ ] letter-spacing
-- [ ] borders
-- [ ] border-radius
-- [ ] border-width
-- [ ] border-color
-- [ ] border-style
-- [ ] border-top
-- [ ] border-right
-- [ ] border-bottom
-- [ ] border-left
+- [ ] Flexbox
+- [ ] Flexbox
+- [ ] Flexbox
+
+      Reference list
+
+  - https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png
+  - https://www.w3schools.com/css/css3_gradients.asp
+  - https://gradients.shecodes.io/
+  - https://www.w3schools.com/howto/howto_js_accordion.asp
+  - https://www.w3schools.com/w3css/w3css_accordions.asp
+  - https://symbl.cc/en/
+  - https://www.w3schools.com/cssref/sel_hover.php
 
 # Extra Credit
 

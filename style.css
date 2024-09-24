@@ -4,7 +4,6 @@ body {
 }
 
 main {
-  /* border: 3px dotted blue; */
   display: flex;
   flex-direction: row;
   flex: auto;
@@ -12,37 +11,52 @@ main {
 }
 
 article {
-  /* border: 3px dotted red; */
   display: flex;
   flex-direction: column;
   flex: 2;
   overflow-y: auto;
   align-items: center;
+  border-radius: 1rem;
 }
 
-.logo {
-  display: inline-block;
-  transform: rotate(-90deg);
+a {
+  color: rgba(0, 0, 255, 0.631);
+  font-weight: bold;
+}
+
+.index_background {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.muaythai_background {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 241, 165) 1.9%,
+    rgb(200, 125, 76) 49.7%,
+    rgb(83, 54, 54) 100.5%
+  );
+}
+
+.cycling_background {
+  background: linear-gradient(to bottom, #605b5b8f 50%, #000000 100%);
 }
 
 .accordion {
-  border: 3px dotted green;
   display: flex;
   flex-direction: column;
 }
 
 section {
-  border: 3px dotted brown;
   flex: 1;
 }
 
 aside {
-  border: 3px dotted purple;
   flex: 1;
 }
 
 .heading_panel {
-  background-color: #eee;
+  /* background-color: #eee; */
+  border-radius: 1rem;
   color: #444;
   cursor: pointer;
   width: 100%;
@@ -54,25 +68,22 @@ aside {
 
 .active,
 .heading_panel:hover {
-  background-color: #ccc;
+  background-color: #b0ab9ebc;
 }
 
 .content_panel {
-  border: 3px dotted orange;
-  padding: 0 18px;
-  background-color: white;
+  padding: 0rem 0.5rem;
   overflow: hidden;
   max-height: 0;
   flex-grow: 1;
   transition: max-height 0.5s ease-out, flex-grow 0.5s ease-out;
 }
 
-.intro_img {
+.main_img {
   border-radius: 1.5rem;
 }
 
 footer {
-  border: 3px dotted pink;
   display: flex;
   flex-direction: column;
   align-items: center;
