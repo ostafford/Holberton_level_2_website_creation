@@ -105,3 +105,50 @@ Holberton Level 2 Application - Make Your Own Website
 # Extra Credit
 
 - [ ] Accordion
+
+# JS Notes
+
+Notes (Concept understanding)
+
+1. Create a variableName `let variableName =`
+2. Select the element (`document.getElementById("name_of_ID")`);
+3. Add an eventListener (`variableName.addEventListener("type");`)
+   i. `type` = What is it that you're listening for (eg. click)
+4. create the function (`function (){};`)
+5. `if` statement.
+   i. if variableName.property is equal to an empty string(""). If true (`==`) it means the variable has no property so execute the code
+   ii. In plain English: "If the property is empty (i.e., the image is big), add the class "small" to shrink the image."
+6. `else` statement
+   i. this would indicate that the `if` statement would be false so execute the last bit of the function code.
+
+Accordion Concept
+
+1. ```js
+
+   ```
+
+2. ```js
+
+   ```
+
+3. ```js
+
+   ```
+
+4. ```js
+
+   ```
+
+5. ```js
+
+   ```
+
+Concept
+
+- Select
+- trigger/interact/listen
+-
+
+Reference
+
+- https://www.w3schools.com/js/js_if_else.asp
