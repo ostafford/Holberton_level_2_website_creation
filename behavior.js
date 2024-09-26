@@ -54,4 +54,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   });
 });
-/* Refer to README.md file for notes on this bit of code. */

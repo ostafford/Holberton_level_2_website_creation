@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tweets</title>
-    <!-- <link rel="canonical" href="http://15.236.145.148/tweets.html" /> -->
+    <link rel="canonical" href="http://15.236.145.148/tweets.html" />
     <link
       href="https://apply.holbertonschool.com/level2/school.css"
       rel="stylesheet"
@@ -12,8 +12,42 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./behavior.js"></script>
   </head>
-  <body>
+  <body class="works_on_smartphone">
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0"
+    ></script>
     <header>
+      <div class="right">
+        <a
+          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+          class="twitter-share-button"
+          data-url="http://15.236.145.148/index.html"
+          data-show-count="false"
+          >Tweet</a
+        >
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+        <div
+          class="fb-share-button"
+          data-href="http://15.236.145.148/index.html"
+          data-layout=""
+          data-size=""
+        >
+          <a
+            target="_blank"
+            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F15.236.145.148%2Findex.html&amp;src=sdkpreparse"
+            class="fb-xfbml-parse-ignore"
+            >Share</a
+          >
+        </div>
+      </div>
       <ul>
         <li class="logo">&#120143;</li>
         <li><a href="index.html">Home</a></li>
