@@ -121,27 +121,60 @@ Notes (Concept understanding)
 6. `else` statement
    i. this would indicate that the `if` statement would be false so execute the last bit of the function code.
 
-Accordion Concept
+## Accordion Concept
 
 1. ```js
-
+   const headingPanels = document.querySelectorAll(".heading_panel");
    ```
+
+   #### Understandings:
+
+   - This line selects all elements in the document that have the class `.heading_panel` and stores them in the `headingPanels` constant. `querySelectorAll` returns a NodeList (array-like structure), which allows us to iterate over the elements.
 
 2. ```js
-
+   headingPanels.forEach((panel) => {
+   panel.addEventListener("click", function () {}};
    ```
+
+   #### Understandings:
+
+   - The `forEach` method is used to loop through each element (`panel`) in the `headingPanels` list. For each panel, an event listener is added, which listens for the "click" event.
+   - `panel` is a parameter (placeholder) which is a temporary name given to each element inside the `headingPanels` list (array-like structure)
 
 3. ```js
-
+   headingPanels.forEach((heading) => {
+     const contentPanel = heading.nextElementSibling;
+     if (heading !== this) {
+       heading.classList.remove("active");
+       contentPanel.style.maxHeight = null;
+       contentPanel.classList.remove("active");
+     }
+   });
    ```
+
+   #### Understandings:
+
+   - When a panel is clicked, this block first loops over all panels (`headingPanels`) again. For each panel (`heading`), it checks if the clicked panel (`this`) is the same as the current `heading`. If it's not, the `active` class is removed from both the `heading` and its corresponding `contentPanel`. Additionally, the `maxHeight` of the content panel is set to `null`, effectively collapsing it.
+   - forEach Loop: For each heading (which represents each .heading_panel element), the function checks and controls the state of both the heading and its sibling .content_panel.
+
+Sibling Element (nextElementSibling): The contentPanel is defined as the next sibling of the current heading in the HTML structure (which is the .content_panel in your case).
+
+If Statement: The if statement checks whether the current heading is not the one that was clicked (this). If it's not the clicked heading, it will remove the active class from both the heading and contentPanel, and it will also set the contentPanel's height to null to collapse it.
+
+Effect: This allows only the clicked panel to remain open, while all other panels collapse, following the accordion behavior.
 
 4. ```js
-
+   this.classList.toggle("active");
+   const contentPanel = this.nextElementSibling;
+   contentPanel.style.maxHeight = contentPanel.style.maxHeight
+     ? null
+     : `${contentPanel.scrollHeight}px`;
+   contentPanel.classList.toggle("active");
    ```
 
-5. ```js
+   #### Understandings:
 
-   ```
+   -
 
 Concept
 
